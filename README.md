@@ -26,9 +26,11 @@ URL：未デプロイ
 
 講座申し込み側、受付側ともに紙やFAXなどの(受講票の作成や郵送も含め)手間のかかる業務を効率的に管理、作成を行いたい、という課題を解決する為に作成
 
-洗い出した要件(詳細URL:https://docs.google.com/spreadsheets/d/1pLe3_Oehxu4ioeWA2bS440pqpFfpuHdTu1dd5LoC-C8/edit#gid=282075926)
+洗い出した要件
 
-```
+(詳細URL:https://docs.google.com/spreadsheets/d/1pLe3_Oehxu4ioeWA2bS440pqpFfpuHdTu1dd5LoC-C8/edit#gid=282075926)
+
+
 | 機能                   　   | 
 | -------------------------- | 
 | ユーザー管理機能      　       | 
@@ -38,7 +40,7 @@ URL：未デプロイ
 | 受講票作成フォーム            | 
 | マイページの編集機能       　　| 
 
-```
+
 実装した機能についてのGIFと説明:実装後記述
 
 実装予定の機能	通知機能(受付完了等)の実装
