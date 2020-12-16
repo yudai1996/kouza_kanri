@@ -48,3 +48,35 @@ URL：未デプロイ
 データベース設計	ER図作成後添付
 
 ローカルでの動作方法：アプリ完成後記述
+
+
+# テーブル設計
+
+## usersテーブル
+
+| Colum                       | Type    | Options     |
+| --------------------------- | ------- | ----------- |
+| account_name                | string  | null: false |
+| email                       | string  | null: false | 
+| encrypted_password          | string  | null: false |
+| qualification　　　          | text    |             |
+| day_of_birthday             | date    | null: false |
+
+-encrypted_password が存在するので、passwordとpassword_confirmationカラムは不要
+
+### Association
+
+- has_many :courses
+
+
+## coursesテーブル
+
+| Colum                       | Type    | Options     |
+| --------------------------- | ------- | ----------- |
+| course_name_id              | integer | null: false |
+| application_month_id        | integer | null: false | 
+| applicant                   | string  | null: false |
+
+### Association
+
+- belongs_to :user
