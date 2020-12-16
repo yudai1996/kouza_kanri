@@ -48,7 +48,7 @@ URL：未デプロイ
 実装予定の機能	通知機能(受付完了等)の実装
 
 データベース設計(ER図)	
-(https://github.com/yudai1996/kouza_kanri/files/5701646/-ER.pdf)
+![image_alt_text](https://github.com/yudai1996/kouza_kanri/files/5701646/-ER.pdf)
 
 ローカルでの動作方法：アプリ完成後記述
 
