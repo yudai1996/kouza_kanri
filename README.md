@@ -48,6 +48,10 @@ URL：未デプロイ
 実装予定の機能	通知機能(受付完了等)の実装
 
 データベース設計(ER図)	
+
+
+
+
 ![講座管理-ER図](https://user-images.githubusercontent.com/72481372/102331083-b310cb80-3fcd-11eb-9880-da2e199b7253.png)
 
 
